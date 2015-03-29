@@ -8,7 +8,6 @@ public class FaultyProblem8 {
 			digitsCount++;
 			someNumber = someNumber / 10;
 		}
-		
 		return digitsCount;
 	}
 }
