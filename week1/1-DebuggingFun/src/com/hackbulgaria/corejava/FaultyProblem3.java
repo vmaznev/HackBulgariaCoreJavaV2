@@ -13,6 +13,7 @@ public class FaultyProblem3 {
         	reversedWords.append(prefix);
         	prefix = whiteSpace;
             reversedWords.append(reverse(word));
+            
         }
         
         return reversedWords.toString();
