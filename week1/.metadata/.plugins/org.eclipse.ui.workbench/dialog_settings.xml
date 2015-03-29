@@ -18,12 +18,13 @@
 	</section>
 	<section name="PreferencesImportWizard">
 		<item value="F:\Programming\Java\Goodies\eclipsePrefs.epf" key=""/>
+		<item value="F:\Programming\Java\Goodies\eclipsePrefs.epf" key=""/>
 		<list key="WizardPreferencesExportPage1.STORE_DESTINATION_NAMES_ID">
 			<item value="F:\Programming\Java\Goodies\eclipsePrefs.epf"/>
 		</list>
 	</section>
 	<section name="ImportExportAction">
-		<item value="org.eclipse.ui.wizards.import.ExternalProject" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
+		<item value="org.eclipse.ui.wizards.import.Preferences" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
 		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
 			<item value="org.eclipse.ui.Basic"/>
 		</list>

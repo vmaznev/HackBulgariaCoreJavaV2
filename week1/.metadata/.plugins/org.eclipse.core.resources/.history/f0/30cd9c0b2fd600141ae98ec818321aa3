@@ -5,7 +5,7 @@ public class FaultyProblem8 {
 		int digitsCount = 0;
 		
 		while(someNumber != 0) {
-		    digitsCount++;
+			digitsCount++;
 			someNumber = someNumber / 10;
 		}
 		
