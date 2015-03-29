@@ -12,7 +12,12 @@ public class FaultyProblem3 {
         for (String word: words){
             reversedWords.append(prefix);
         	prefix = whiteSpace;
+<<<<<<< HEAD
         	reversedWords.append(reverse(word));
+=======
+            reversedWords.append(reverse(word));
+            
+>>>>>>> 24f36f1cb1e6b2378694702396e283e095ef74c3
         }
         
         return reversedWords.toString();
