@@ -53,5 +53,5 @@ public interface Problems2 {
 	
 	boolean areAnagrams(String A, String B);
 
-    boolean hasAnagramOf(String string, String string2);
+	boolean hasAnagramOf(String string, String string2);
 }
