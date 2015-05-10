@@ -91,7 +91,7 @@ public class Calculator {
         return result.toString();
     }
     
-    public static String calculateWithRPN(String expression) {
+    public static String calculaterWithRPN(String expression) {
         
         expression = cleanExpression(convertExpressionToPostfix(expression));
         

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename method &apos;Calculator.calculaterWithRPN(...)&apos; to &apos;calculateWithRPN&apos;&#x0D;&#x0A;- Original project: &apos;RPNCalculator&apos;&#x0D;&#x0A;- Original element: &apos;Calculator.calculaterWithRPN(...)&apos;&#x0D;&#x0A;- Renamed element: &apos;Calculator.calculateWithRPN(...)&apos;&#x0D;&#x0A;- Update references to refactored element" delegate="false" deprecate="false" description="Rename method &apos;calculaterWithRPN&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.method" input="/src&lt;{Calculator.java[Calculator~calculaterWithRPN~QString;" name="calculateWithRPN" references="true" stamp="1431287182343" version="1.0"/>
+</session>

@@ -143,18 +143,18 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_ofsRIPdEEeS3Aop4BDLnfA" elementId="org.eclipse.ui.editorss" selectedElement="_ofsRIfdEEeS3Aop4BDLnfA">
-      <children xsi:type="basic:PartStack" xmi:id="_ofsRIfdEEeS3Aop4BDLnfA" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_gSbGAPdKEeS3Aop4BDLnfA">
+      <children xsi:type="basic:PartStack" xmi:id="_ofsRIfdEEeS3Aop4BDLnfA" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_rKYuEPdKEeS3Aop4BDLnfA">
         <tags>newtablook</tags>
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
         <children xsi:type="basic:Part" xmi:id="_gSbGAPdKEeS3Aop4BDLnfA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Calculator.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Calculator.java&quot; partName=&quot;Calculator.java&quot; title=&quot;Calculator.java&quot; tooltip=&quot;RPNCalculator/src/Calculator.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/RPNCalculator/src/Calculator.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;154&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Calculator.java&quot; partName=&quot;Calculator.java&quot; title=&quot;Calculator.java&quot; tooltip=&quot;RPNCalculator/src/Calculator.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/RPNCalculator/src/Calculator.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;16&quot; selectionOffset=&quot;2958&quot; selectionTopPixel=&quot;1303&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
           <tags>removeOnHide</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_rKYuEPdKEeS3Aop4BDLnfA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="CalculatorTest.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CalculatorTest.java&quot; partName=&quot;CalculatorTest.java&quot; title=&quot;CalculatorTest.java&quot; tooltip=&quot;RPNCalculator/src/CalculatorTest.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/RPNCalculator/src/CalculatorTest.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;59&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CalculatorTest.java&quot; partName=&quot;CalculatorTest.java&quot; title=&quot;CalculatorTest.java&quot; tooltip=&quot;RPNCalculator/src/CalculatorTest.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/RPNCalculator/src/CalculatorTest.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;136&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
           <tags>removeOnHide</tags>
@@ -208,7 +208,7 @@
       <tags>categoryTag:General</tags>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_okJ6YvdEEeS3Aop4BDLnfA" elementId="org.eclipse.ui.views.ProblemView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Problems" iconURI="platform:/plugin/org.eclipse.ui.ide/icons/full/eview16/problems_view.png" closeable="true">
-      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view PRIMARY_SORT_FIELD=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot; categoryGroup=&quot;org.eclipse.ui.ide.severity&quot; markerContentGenerator=&quot;org.eclipse.ui.ide.problemsGenerator&quot; partName=&quot;Problems&quot;>&#xD;&#xA;&lt;expanded>&#xD;&#xA;&lt;category IMemento.internal.id=&quot;Errors (1 item)&quot;/>&#xD;&#xA;&lt;/expanded>&#xD;&#xA;&lt;columnWidths org.eclipse.ui.ide.locationField=&quot;90&quot; org.eclipse.ui.ide.markerType=&quot;90&quot; org.eclipse.ui.ide.pathField=&quot;120&quot; org.eclipse.ui.ide.resourceField=&quot;90&quot; org.eclipse.ui.ide.severityAndDescriptionField=&quot;300&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.resourceField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.pathField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.locationField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.markerType&quot;/>&#xD;&#xA;&lt;/view>"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view PRIMARY_SORT_FIELD=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot; categoryGroup=&quot;org.eclipse.ui.ide.severity&quot; markerContentGenerator=&quot;org.eclipse.ui.ide.problemsGenerator&quot; partName=&quot;Problems&quot;>&#xD;&#xA;&lt;columnWidths org.eclipse.ui.ide.locationField=&quot;90&quot; org.eclipse.ui.ide.markerType=&quot;90&quot; org.eclipse.ui.ide.pathField=&quot;120&quot; org.eclipse.ui.ide.resourceField=&quot;90&quot; org.eclipse.ui.ide.severityAndDescriptionField=&quot;300&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.resourceField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.pathField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.locationField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.markerType&quot;/>&#xD;&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
       <menus xmi:id="_tCyo4PdEEeS3Aop4BDLnfA" elementId="org.eclipse.ui.views.ProblemView">
@@ -312,7 +312,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_oZPD0PdEEeS3Aop4BDLnfA" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_oZb4IPdEEeS3Aop4BDLnfA" elementId="print" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" enabled="false" command="_n4-20fdEEeS3Aop4BDLnfA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_LBKngPdNEeSJn4cNJznwXw" elementId="print" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" enabled="false" command="_n4-20fdEEeS3Aop4BDLnfA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_oZPD0fdEEeS3Aop4BDLnfA" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -345,7 +345,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_oZQ5APdEEeS3Aop4BDLnfA" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_oZkbAPdEEeS3Aop4BDLnfA" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_n4-2evdEEeS3Aop4BDLnfA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_LBQuIPdNEeSJn4cNJznwXw" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_n4-2evdEEeS3Aop4BDLnfA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_oZRgEPdEEeS3Aop4BDLnfA" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -498,9 +498,6 @@
     <bindings xmi:id="_n5wSgPdEEeS3Aop4BDLnfA" keySequence="ALT+D" command="_n49BQ_dEEeS3Aop4BDLnfA"/>
     <bindings xmi:id="_n5zV0vdEEeS3Aop4BDLnfA" keySequence="ALT+C" command="_n49BQ_dEEeS3Aop4BDLnfA"/>
     <bindings xmi:id="_n5z84PdEEeS3Aop4BDLnfA" keySequence="ALT+B" command="_n49BQ_dEEeS3Aop4BDLnfA"/>
-    <bindings xmi:id="_n53AMfdEEeS3Aop4BDLnfA" keySequence="ALT+G" command="_n49BQ_dEEeS3Aop4BDLnfA">
-      <tags>deleted</tags>
-    </bindings>
     <bindings xmi:id="_n57RovdEEeS3Aop4BDLnfA" keySequence="ALT+H" command="_n49BQ_dEEeS3Aop4BDLnfA"/>
     <bindings xmi:id="_n574sPdEEeS3Aop4BDLnfA" keySequence="ALT+E" command="_n49BQ_dEEeS3Aop4BDLnfA"/>
     <bindings xmi:id="_n574tvdEEeS3Aop4BDLnfA" keySequence="ALT+F" command="_n49BQ_dEEeS3Aop4BDLnfA"/>
@@ -604,9 +601,6 @@
     <bindings xmi:id="_n6He7PdEEeS3Aop4BDLnfA" keySequence="ALT+SHIFT+N" command="_n46lTPdEEeS3Aop4BDLnfA"/>
     <bindings xmi:id="_n6He7fdEEeS3Aop4BDLnfA" keySequence="CTRL+U" command="_n48aNfdEEeS3Aop4BDLnfA"/>
     <bindings xmi:id="_n6He7vdEEeS3Aop4BDLnfA" keySequence="ALT+F7" command="_n49BXPdEEeS3Aop4BDLnfA"/>
-    <bindings xmi:id="_n6He7_dEEeS3Aop4BDLnfA" keySequence="ALT+SHIFT+T" command="_n49BVvdEEeS3Aop4BDLnfA">
-      <tags>deleted</tags>
-    </bindings>
     <bindings xmi:id="_n6IF9vdEEeS3Aop4BDLnfA" keySequence="CTRL+F6" command="_n4598fdEEeS3Aop4BDLnfA"/>
     <bindings xmi:id="_n6ItAvdEEeS3Aop4BDLnfA" keySequence="ALT+SHIFT+M" command="_n4_d3vdEEeS3Aop4BDLnfA"/>
     <bindings xmi:id="_n6ItBfdEEeS3Aop4BDLnfA" keySequence="SHIFT+F2" command="_n49oVvdEEeS3Aop4BDLnfA"/>

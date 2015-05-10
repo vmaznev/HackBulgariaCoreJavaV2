@@ -1,0 +1,16 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class CalculatorTest {
+
+    @Test
+    public void testCalculatorWithRPN() {
+        assertEquals(Calculator.calculaterWithRPN("5"), "5.0");
+        assertEquals(Calculator.calculaterWithRPN("3 + (5 + 9*7 + 9)"), "80.0");
+        assertEquals(Calculator.calculaterWithRPN("4*(4 + 5)"), "36.0");
+        assertEquals(Calculator.calculaterWithRPN("(5+3)!"), "40320.0");
+        assertEquals(Calculator.calculaterWithRPN("2^3! + 5*((3+2!)^2)"), "189.0");
+    }
+
+}
