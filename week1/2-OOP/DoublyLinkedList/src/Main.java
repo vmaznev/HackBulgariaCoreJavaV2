@@ -1,0 +1,24 @@
+
+public class Main {
+    public static void main(String[] arguments) {
+        DoublyLinkedListImpl someDLL = new DoublyLinkedListImpl();
+        
+        someDLL.addBeginning(22);
+        someDLL.addBeginning(44);
+        someDLL.addBeginning(66);
+        someDLL.addEnd(88);
+        
+        System.out.println("DLL Elements: " + someDLL);
+        System.out.println("Size: " + someDLL.size());
+        
+        someDLL.remove(1);
+        System.out.println("Element With Index <1> Removed...!");
+        
+        System.out.println("Size: " + someDLL.size());
+        System.out.println("DLL Elements: " + someDLL);
+        System.out.println("Second Element: " + someDLL.get(1));
+        System.out.println("Head: " + someDLL.getHead());
+        System.out.println("Tail: " + someDLL.getTail());
+        
+    }
+}
