@@ -1,0 +1,16 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class Main {
+    public static void main(String[] arguments) {
+        List<Integer> arrayList = new ArrayList<Integer>();
+        
+        arrayList.add(5);
+        
+        ImmutableList<Integer> immutableList = new ImmutableList<Integer>(arrayList);
+        
+        System.out.println(immutableList.get(0)); // InvalidModificationException will not be thrown...!
+        
+        immutableList.add(6); // InvalidModificationException will be thrown...!
+    }
+}

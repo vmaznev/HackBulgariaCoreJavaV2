@@ -1,0 +1,18 @@
+
+public class Main {
+    
+    public static void main(String[] arguments) {
+        ExtendedHashMap<Integer, Integer> myExtendedHashMap = new ExtendedHashMap<Integer, Integer>();
+        ExtendedHashMap<Integer, Integer> myNewExtendedHashMap = new ExtendedHashMap<Integer, Integer>(true);
+        
+        myExtendedHashMap.put(1, 1);
+        myExtendedHashMap.put(2, 2);
+        System.out.println(myExtendedHashMap.get(1));
+        myExtendedHashMap.put(null, 3); // NullHashMapKeyException will be thrown...!
+        
+        myNewExtendedHashMap.put(1, 1);
+        System.out.println(myNewExtendedHashMap.get(1));
+        myNewExtendedHashMap.put(null, 2); // NullHashMapKeyException will not be thrown...!
+        
+    }
+}

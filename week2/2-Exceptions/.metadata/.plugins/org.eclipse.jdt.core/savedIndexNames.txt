@@ -1,0 +1,6 @@
+INDEX VERSION 1.127+F:\Apps\Eclipse\HackBulgariaCoreJavaV2\week2\2-Exceptions\.metadata\.plugins\org.eclipse.jdt.core
+1371591091.index
+647438395.index
+3705730210.index
+3575856560.index
+2650640423.index
