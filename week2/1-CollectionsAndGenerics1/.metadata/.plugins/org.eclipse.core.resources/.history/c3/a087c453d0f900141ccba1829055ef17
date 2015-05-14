@@ -1,0 +1,95 @@
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.List;
+
+public class StatisticsImpl implements Statistics {
+
+    private List<Integer> arrayList;
+    
+    public StatisticsImpl() {
+        this.arrayList = new ArrayList<Integer>();
+    }
+
+    public void add(int number) {
+        this.arrayList.add(number);
+    }
+    
+    @Override
+    public float getMean() {
+        float mean = 0;
+        int sum = 0;
+        int counter = arrayList.size();
+        
+        for(Integer i : arrayList) {
+            sum = sum + i;
+        }
+        
+        mean = (float)sum / (float)counter;
+        
+        return mean;
+    }
+
+    @Override
+    public float getMedian() {
+        float median = 0;
+        boolean isEven = false;
+        int tempPosition = 0;
+        
+        if((this.arrayList.size() % 2) == 0) {
+            isEven = true;
+        }
+        
+        Collections.sort(this.arrayList);
+    
+        for(int i = 0; i <this.arrayList.size(); i++) {
+            if(!(isEven)) {
+                tempPosition = this.arrayList.size() / 2;
+                median = this.arrayList.get(tempPosition);
+            }
+            else {
+                tempPosition = arrayList.size() / 2;
+                median = (this.arrayList.get(tempPosition - 1) + this.arrayList.get(tempPosition)) / (float)2;
+            }
+        }
+        
+        return median;
+    }
+
+    @Override
+    public HashSet<Integer> getMode() {
+        HashSet<Integer> hashSet = new HashSet<Integer>();
+        int currentMaxOccurrences = 0;
+
+        for(Integer i : arrayList) {
+            if(Collections.frequency(this.arrayList, i) >= currentMaxOccurrences) {
+                if(Collections.frequency(this.arrayList, i) == currentMaxOccurrences) {
+                    currentMaxOccurrences = Collections.frequency(this.arrayList, i);
+                    hashSet.add(i);
+                    continue;
+                }
+                currentMaxOccurrences = Collections.frequency(this.arrayList, i);
+                hashSet.add(i);
+            }
+        }
+        
+        return hashSet;
+    }
+
+    @Override
+    public int getRange() {
+        int range = 0;
+        
+        Collections.sort(this.arrayList);
+        
+        range = (this.arrayList.get(this.arrayList.size() - 1)) - this.arrayList.get(0);
+        
+        return range;
+    }
+    
+    @Override
+    public String toString() {
+        return "Numbers: " + arrayList;
+    }
+    
+}

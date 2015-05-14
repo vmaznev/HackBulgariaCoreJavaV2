@@ -1,0 +1,36 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.List;
+
+public class Main {
+    public static void main(String[] arguments) {
+        
+        // >>>>> RotateCollection <<<<<
+        
+        List<String> someStrings = new ArrayList<String>();
+        
+        someStrings.add("one");
+        someStrings.add("two");
+        someStrings.add("three");
+        someStrings.add("four");
+        someStrings.add("five");
+        someStrings.add("six");
+        someStrings.add("seven");
+        
+        UtilityMethods.rotate(someStrings, -3);
+        
+        System.out.println("RotateCollection...!");
+        System.out.println(someStrings);
+        System.out.println();
+        
+        // >>>>> FirstUniqueElement <<<<<
+        
+        Collection<Integer> ints = Arrays.asList(1, 2, 3, 4, 5, 5, 4, 3, 1);
+        System.out.println("FirstUniqueElement...!");
+        System.out.println(UtilityMethods.firstUnique(ints));
+        System.out.println();
+        
+        
+    }
+}
