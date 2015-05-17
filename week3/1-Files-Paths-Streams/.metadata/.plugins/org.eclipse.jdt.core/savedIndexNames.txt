@@ -1,0 +1,8 @@
+INDEX VERSION 1.127+F:\Apps\Eclipse\HackBulgariaCoreJavaV2\week3\1-Files-Paths-Streams\.metadata\.plugins\org.eclipse.jdt.core
+2171244546.index
+224387905.index
+337245311.index
+1323100226.index
+2460529090.index
+3654909436.index
+764996407.index

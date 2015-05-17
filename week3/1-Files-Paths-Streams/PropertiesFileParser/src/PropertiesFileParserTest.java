@@ -1,0 +1,69 @@
+import static org.junit.Assert.assertEquals;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Map.Entry;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+
+public class PropertiesFileParserTest {
+
+	private File testFile; 
+	
+	@Before
+	public void init() {
+		testFile = new File("../../1-Files-Paths-StreamsUSAGE/NewFile.txt");
+	}
+	
+	@Test
+	public void test() throws IOException {
+		Map<String, String> testHashMap = new HashMap<String, String>();
+		
+		testHashMap.put("a1", "b1");
+		testHashMap.put("a2", "b2");
+		testHashMap.put("a3", "b3");
+		testHashMap.put("a4", "b4");
+		testHashMap.put("a5", "b6=b7=b8");
+		testHashMap.put("a6", "b9 #comment");
+		testHashMap.put("a7", "=b10");
+		
+		FileUtils fileUtils = FileUtils.getInstance();
+		
+		fileUtils.writeTo(testFile,
+				"# this=comment\n"
+				+ "a1=b1\n"
+				+ "a2 =b2\n"
+				+ "a3    =    b3\n"
+				+ "   a4 = b4\n"
+				+ "a5=b6=b7=b8\n"
+				+ "a6=b9 #comment \n"
+				+ "a7==b10\n");
+        
+        assertEquals(mapEquality(testHashMap, PropertiesFileParser.parseProperties(testFile)), true);
+	}
+	
+    @After
+    public void tearDown() {
+        testFile.delete();
+    }
+
+    private boolean mapEquality(Map<String, String> firstMap, Map<String, String> secondMap) {
+
+        for (Entry<String, String> entry : secondMap.entrySet()) {
+            if (!firstMap.containsKey(entry.getKey())) {
+                return false;
+            } else {
+                if (!firstMap.get(entry.getKey()).equals(entry.getValue())) {
+                    return false;
+                }
+            }
+        }
+
+        return true;
+    }
+
+}
