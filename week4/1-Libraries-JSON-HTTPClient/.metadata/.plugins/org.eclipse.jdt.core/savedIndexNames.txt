@@ -1,0 +1,5 @@
+INDEX VERSION 1.127+F:\Apps\Eclipse\HackBulgariaCoreJavaV2\week4\1-Libraries-JSON-HTTPClient\.metadata\.plugins\org.eclipse.jdt.core
+3764784435.index
+3433764403.index
+1612074335.index
+1671345227.index
