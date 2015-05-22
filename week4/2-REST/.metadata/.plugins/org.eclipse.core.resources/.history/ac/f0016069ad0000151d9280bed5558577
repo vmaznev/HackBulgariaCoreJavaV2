@@ -1,0 +1,31 @@
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.net.URL;
+
+public class FileDownloader {
+    public static void saveFile(String fileURL, String saveHere) throws IOException {
+        
+        URL someURL = new URL("http://d3dsacqprgcsqh.cloudfront.net/photo/aozrdx0_700b.jpg");
+        InputStream in = someURL.openStream();
+        OutputStream out = new FileOutputStream(saveHere);
+        
+        byte[] someBytes = new byte[2048];
+        int length;
+        
+        while((length = in.read(someBytes)) != -1) {
+            out.write(someBytes, 0, length);
+        }
+        
+        in.close();
+        out.close();
+    }
+    
+    public static void main(String[] arguments) throws IOException {
+        String someURL = "http://d3dsacqprgcsqh.cloudfront.net/photo/aozrdx0_700b.jpg";
+        String saveHere = "../downloadedFile.jpg";
+        saveFile(someURL, saveHere);
+        System.out.println("File Downloaded...!");
+    }
+}
