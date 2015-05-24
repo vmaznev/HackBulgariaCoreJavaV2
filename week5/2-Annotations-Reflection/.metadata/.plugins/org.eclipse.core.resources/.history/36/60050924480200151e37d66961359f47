@@ -1,0 +1,7 @@
+import java.util.ArrayList;
+import java.util.Map;
+
+@ClassInfo(author = "Someone", relatedClasses = { ArrayList.class, Map.class })
+public class AnnotateClass {
+    
+}
