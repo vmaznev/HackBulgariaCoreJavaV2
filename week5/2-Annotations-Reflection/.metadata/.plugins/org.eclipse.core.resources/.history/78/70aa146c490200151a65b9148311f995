@@ -20,7 +20,7 @@ public class Main {
             System.out.println(a.toString());
         }
         
-        // Third way of writing the above code...!
+        // Third way off writing the above code...!
         System.out.println(something.getClass().getAnnotation(ClassInfo.class));
                 
         Field[] fields = ClassInfo.class.getFields();
