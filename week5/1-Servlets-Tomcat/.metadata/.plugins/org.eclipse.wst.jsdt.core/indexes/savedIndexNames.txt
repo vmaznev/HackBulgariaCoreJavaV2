@@ -1,0 +1,7 @@
+INDEX VERSION 1.3+F:\Apps\Eclipse\HackBulgariaCoreJavaV2\week5\1-Servlets-Tomcat\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1222874929.index
+3811078461.index
+2128131693.index
+2267117472.index
+2753055520.index
+2844564199.index
