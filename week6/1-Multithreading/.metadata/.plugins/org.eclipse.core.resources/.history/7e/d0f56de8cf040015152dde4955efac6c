@@ -1,0 +1,27 @@
+
+public class Main {
+    public static void main(String[] arguments) throws InterruptedException {
+        
+        long startTime = System.currentTimeMillis();
+        
+        BasicMultithreading A = new BasicMultithreading("Thread 1");
+        A.start();
+        
+        BasicMultithreading B = new BasicMultithreading("Thread 2");
+        B.start();
+
+        A.join();
+        B.join();
+        
+        synchronized(BasicMultithreading.lock1) {
+            while(BasicMultithreading.flag == false) {
+                BasicMultithreading.lock1.wait(); 
+            }
+        }
+        
+        System.out.println("Random Message...!");
+        
+        System.out.println("Calculated Time: " + (System.currentTimeMillis() - startTime) + "Millis...!");
+        
+    }
+}

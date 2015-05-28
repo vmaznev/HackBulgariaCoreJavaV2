@@ -1,0 +1,4 @@
+INDEX VERSION 1.127+F:\Apps\Eclipse\HackBulgariaCoreJavaV2\week6\1-Multithreading\.metadata\.plugins\org.eclipse.jdt.core
+4093687048.index
+266146940.index
+1525998303.index
