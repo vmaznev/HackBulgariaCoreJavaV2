@@ -142,7 +142,6 @@ public class WebCrawler {
         }
         //      if (!result)
         //          System.out.println("uri:" +uri +" "+visitedUrls);
-        
         return result;
     }
 }

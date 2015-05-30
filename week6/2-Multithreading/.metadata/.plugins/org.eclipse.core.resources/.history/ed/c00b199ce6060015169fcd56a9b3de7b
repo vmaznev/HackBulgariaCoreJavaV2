@@ -40,7 +40,6 @@ public class Main {
         }
         System.out.println("links: " + result.size());
         System.out.println("time: " + (System.currentTimeMillis() - start));
-        
     }
 
 }

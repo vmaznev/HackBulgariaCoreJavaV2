@@ -209,6 +209,7 @@ public class ParallelWebCrawler {
         }
         //      if (!result)
         //          System.out.println("uri:" +uri +" "+visitedUrls);
+        
         return result;
     }
 

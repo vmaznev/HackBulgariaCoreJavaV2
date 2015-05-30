@@ -37,7 +37,6 @@ public class AtomicSet implements Set<URI> {
                     throw new RuntimeException("Element not added: " + o);
                 };
             }
-            
             return result;
         }
     }
